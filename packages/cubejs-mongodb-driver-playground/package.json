@@ -1,0 +1,39 @@
+{
+  "name": "@cubejs-backend/mongodb-driver-plaground",
+  "description": "Cube.js MongoDB database driver playground",
+  "author": "Cube Dev, Inc.",
+  "version": "0.20.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cube-js/cube.js.git",
+    "directory": "packages/cubejs-mongodb-driver-playground"
+  },
+  "engines": {
+    "node": ">=8.11.1"
+  },
+  "main": "./server.js",
+  "scripts": {
+    "start": "node ./server.js",
+    "insert": "node ./insert-data.js",
+    "test": "jest",
+    "lint": "eslint driver/*.js test/*.js"
+  },
+  "dependencies": {
+    "@cubejs-backend/mysql-driver": "file:../cubejs-mongodb-driver",
+    "@cubejs-backend/server-core": "0.20.0",
+    "body-parser": "^1.19.0",
+    "csv-parser": "^2.3.3",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^5.2.1"
+  },
+  "license": "Apache-2.0",
+  "publishConfig": {
+    "access": "public"
+  }
+}
