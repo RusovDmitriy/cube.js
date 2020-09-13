@@ -46,6 +46,7 @@ module.exports = {
       {
         order: ['static-methods', 'lifecycle', 'everything-else', 'render']
       }
-    ]
+    ],
+    'no-dupe-keys': ['error']
   }
 };

@@ -34,5 +34,6 @@ module.exports = {
         ignoreTemplateLiterals: true,
       },
     ],
+    'no-dupe-keys': ['error'],
   },
 };

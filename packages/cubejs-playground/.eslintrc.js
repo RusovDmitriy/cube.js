@@ -50,6 +50,7 @@ module.exports = {
         order: ['static-methods', 'lifecycle', 'everything-else', 'render']
       }
     ],
-    'react/jsx-props-no-spreading': 0
+    'react/jsx-props-no-spreading': 0,
+    'no-dupe-keys': ['error']
   }
 };
